@@ -8,3 +8,6 @@ langchain-groq
 langchain-huggingface
 sentence-transformers
 faiss-cpu
+
+# force CPU torch
+torch==2.1.2+cpu ; platform_system=="Linux"
