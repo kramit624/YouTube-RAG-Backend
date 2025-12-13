@@ -7,8 +7,6 @@ redis
 langchain
 langchain-core
 langchain-groq
-langchain-huggingface
-langchain-text-splitters
 langchain_community
 pydantic
 
