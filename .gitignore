@@ -1,0 +1,52 @@
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Python cache & compiled
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environment
+# =========================
+env/
+venv/
+.venv/
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Runtime generated files
+# =========================
+cached_transcript.txt
+memory.txt
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# FAISS / Vector store (if persisted later)
+# =========================
+*.faiss
+*.index
+
+# =========================
+# Test / temp files
+# =========================
+tmp/
+temp/
