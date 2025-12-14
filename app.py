@@ -9,6 +9,13 @@ from src.summary import summarize_video
 
 app = FastAPI(title="YouTube RAG Backend")
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 CURRENT_SESSION = {
     "video_id": None,
     "ask": None,
