@@ -6,6 +6,7 @@ from src.vectorstore import create_vectorstore
 from src.rag import get_rag_chain
 from src.transcript import get_transcript_with_cache
 from src.summary import summarize_video
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="YouTube RAG Backend")
 
